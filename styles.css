@@ -1,9 +1,22 @@
-html, body {
+/*css doc
+  colors:
+        #0B0c10
+        #1F2833
+        #C5C6C7
+        #66FCF1
+        #45A29E
+*/
+* , *::before , *::after{
+    box-sizing:border-box;
+}
+html, body#homeBody {
     margin: 0;
     padding: 0;
     width: 100%;
     background-color: #1F2833;
-    font-family:'Baloo Tamma 2', cursive !important;
+    background-size:cover;
+    font-family:'Baloo Bhaina 2', cursive !important;
+    overflow-x: none;
 }
 
 header{
@@ -14,12 +27,17 @@ header{
 .nav-link{
     color:#66fcf1 !important;
 }
-.nav-link :hover{
-    opacity:0.5 !important;
-    text-decoration: underline !important;
+.nav-link :hover , .nav-item :hover{
+    opacity:0.3 !important;
 }
 
-div.container-fluid{
+div.container-fluid , div.container{
     background-color: #1F2833;
     color:#c5c6c7;
+}
+button.btn{
+    background-color:#45A29E;
+}
+a#homeBtn :hover{
+    background-color: #66fcf1;
 }
