@@ -11,12 +11,13 @@
 }
 html, body#homeBody {
     margin: 0;
-    padding: 0;
+    padding-bottom:130px;
     width: 100%;
     background-color: #1F2833;
     background-size:cover;
     font-family:'Baloo Bhaina 2', cursive !important;
     overflow-x: none;
+
 }
 
 header{
@@ -51,6 +52,7 @@ a#homeBtn :hover{
 .foot{
     background-color:#c5c6c7 !important;
     color:#45A29E !important;
+    height:130px;
 }
 #footImg{
     width:20px;
@@ -62,4 +64,32 @@ a#homeBtn :hover{
 .socialIcon :hover{
     opacity:0.5;
     color:#66fcf1;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width:425px){
+    html{
+        font-size: 0.4em;
+    }
+    .bottomImg{
+        width:10px;
+        height:10px;
+    }
+    .navImg{
+        width:15px;
+        height:15px;
+    }
+}
+@media only screen and (min-width: 426px) and (max-width:768px){
+    html{
+        font-size: 0.8em;
+    }
+    .bottomImg{
+        width:20px;
+        height:20px;
+    }
+    .navImg{
+        width:25px;
+        height:25px;
+    }
 }
