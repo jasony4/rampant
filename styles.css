@@ -52,9 +52,14 @@ a#homeBtn :hover{
     background-color:#c5c6c7 !important;
     color:#45A29E !important;
 }
+#footImg{
+    width:20px;
+    height:20px;
+}
 .socialIcon{
     color:#45A29E !important;
 }
 .socialIcon :hover{
     opacity:0.5;
+    color:#66fcf1;
 }
