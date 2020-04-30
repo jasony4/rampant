@@ -66,6 +66,9 @@ a#homeBtn :hover{
     color:#66fcf1;
 }
 
+.h1Container {
+    padding-top: 100px;
+}
 
 @media only screen and (min-width: 320px) and (max-width:425px){
     html{
