@@ -41,3 +41,20 @@ button.btn{
 a#homeBtn :hover{
     background-color: #66fcf1;
 }
+
+.bottomImg :hover{
+    opacity:0.5;
+}
+.imgHov :hover{
+    opacity:0.5;
+}
+.foot{
+    background-color:#c5c6c7 !important;
+    color:#45A29E !important;
+}
+.socialIcon{
+    color:#45A29E !important;
+}
+.socialIcon :hover{
+    opacity:0.5;
+}
