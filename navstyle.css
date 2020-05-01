@@ -1,3 +1,15 @@
+/*css doc
+  colors:
+        #0B0c10
+        #1F2833
+        #C5C6C7
+        #66FCF1
+        #45A29E
+*/
+* , *::before , *::after{
+    box-sizing:border-box;
+}
+/*nav styling*/
 .dropMenuIcon {
     color:red;
 }
@@ -13,7 +25,58 @@
 .navbar-brand {
     color:#45A29E !important
 }
-
+.navbar-brand :hover{
+    opacity:0.5;
+}
 .nav-link{
     color: #45A29E !important;
+}
+.nav-item :hover{
+    opacity:0.5;
+}
+html{
+    background-color:#1F2833;
+    font-family:''Baloo Bhaina 2', cursive !important;
+}
+body{
+    background-color:#1F2833 !important;
+    color: #C5C6C7;
+    font-family:'Baloo Bhaina 2', cursive !important;
+    padding-bottom:130px;
+}
+h1{
+    color: #C5C6C7;
+}
+#homeBtn{
+    background-color: #66FCF1;
+}
+#homeBtnLink :hover{
+    opacity:0.5;
+}
+.foot{
+    background-color:#c5c6c7 !important;
+    color:#45A29E !important;
+    height:130px;
+}
+.socialIcon{
+    color:#45A29E
+}
+.icon-bar {
+    position: fixed;
+    padding-top:10%;
+    top: 30%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: #45A29E;
+    font-size: 20px;
+}
+.icon-bar a :hover{
+    opacity: 0.5;
 }
