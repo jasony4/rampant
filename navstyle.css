@@ -97,3 +97,143 @@ h1{
     }
 
 }
+
+
+/* Meet the team card styling section */
+#MeetTheTeamSection {
+    background-color:#1F2833;
+}
+
+#meetTeamBody {
+    background-color: lightsalmon;
+    
+}
+
+.team-heading {
+    color:black;
+    font-size:3.5rem;
+    letter-spacing:3px;
+    margin-bottom: 5rem;
+    color: #45A29E;
+    position: relative;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+
+.card-wrapper {
+    display:flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.card {
+    width:32rem;
+    background-color: #1F2833;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:2rem;
+    box-shadow: .5rem .5rem .3rem rgba(0,0,0,0.2);
+    border: 1px solid white;
+}
+
+.card .card-img {
+    height:100%;
+    width: auto;
+    height:26rem;
+    object-fit:cover;
+}
+
+.profile-img {
+    width:15rem;
+    height:15rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -10rem;
+    z-index: 999;
+    border:1px solid #1F2833;
+}
+
+.card h1 {
+    font-size: 2.5rem;
+    margin:1.5rem 0;
+}
+
+.job-title {
+    color:#ccc;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+.about {
+    color:#ccc;
+    font-weight: 100;
+    font-size: 1.5rem;
+    margin:1.5rem 0;
+    font-style: italic;
+    text-align: center;
+}
+
+.card .btn {
+    padding:1rem 2.5rem;
+    background-color: #45A29E !important;
+    border-radius: 2rem ;
+    margin:1rem 0;
+    color:#1F2833;
+    font-size: 1.4rem;
+    transition:all .5s;
+}
+
+.card .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: .5rem .5rem 2rem rgba(0,0,0,0.2);
+}
+
+.card .btn:active {
+    transform: translateY(0px);
+    box-shadow: none;
+}
+
+.social-media {
+    width:100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding:2rem 0;
+    border-top: 1px solid black;
+}
+
+.social-media i{
+    font-size: 3rem;
+    transition:all 0.5s
+}
+
+.fa-facebook-square:hover, 
+.fa-linkedin-square:hover, 
+.fa-instagram:hover {
+    transform: translateY(-2px);
+    box-shadow: .5rem .5rem 2rem rgba(0,0,0,0.2);
+    color:lightgrey
+}
+
+.fa-facebook-square, 
+.fa-linkedin-square, 
+.fa-instagram {
+    color:#ccc;
+}
+
+@media screen and (min-width:700px) {
+    .card-wrapper {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        margin:2rem;
+    }
+}
