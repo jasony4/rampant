@@ -11,7 +11,7 @@
 }
 html, body#homeBody {
     margin: 0;
-    padding-bottom:130px;
+    padding-bottom:120px;
     width: 100%;
     background-color: #1F2833;
     background-size:cover;
@@ -52,7 +52,7 @@ a#homeBtn :hover{
 .foot{
     background-color:#c5c6c7 !important;
     color:#45A29E !important;
-    height:130px;
+    height:120px;
 }
 #footImg{
     width:20px;
