@@ -69,7 +69,7 @@ h1{
 .socialIcon :hover{
     transform: translateY(-2px);
     box-shadow: 8px 8px 32px rgba(0,0,0,0.2);
-    color:#c5c6c7;
+    color:#45A29E;
 }
 .icon-bar {
     position: fixed;
@@ -91,7 +91,6 @@ h1{
     opacity: 0.5;
     transform: translateY(-2px);
     box-shadow: 8px 8px 32px rgba(0,0,0,0.2);
-    color:#c5c6c7;
 }
 .bottomImg{
     width:150px;
@@ -99,6 +98,9 @@ h1{
 }
 .list-item{
     color:#45A29E !important;
+}
+#homeInsta, #footerInsta {
+    color:#45A29E;
 }
 @media only screen and (min-width: 320px) and (max-width:425px){
     html{
