@@ -12,6 +12,7 @@ window.onscroll = function(ev) {
     var footer = document.getElementsByTagName("footer")[0];
     if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
         footer.style.display = "block";
+        footer.style.transitionTimingFunction = "cubic-bezier(0,0,0.58,1)";
     }
     else{
         footer.style.display = "none";
