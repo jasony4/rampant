@@ -58,6 +58,9 @@ h1{
     opacity:0.5;
 }
 .imgHov :hover{opacity:0.5;}
+footer{
+    display:none;
+}
 .foot{
     background-color:#c5c6c7 !important;
     color:#45A29E !important;
@@ -95,9 +98,6 @@ h1{
 .bottomImg{
     width:150px;
     height:150px;
-}
-.list-item{
-    color:#45A29E !important;
 }
 #homeInsta, #footerInsta {
     color:#45A29E;
@@ -183,11 +183,7 @@ h1{
 }
 
 .job-title {
-<<<<<<< HEAD
     color:#c5c6c7;
-=======
-    color:#C5C6C7;
->>>>>>> 1852a831da6775803c1b7daa90fde19dbfecf64b
     font-weight: 100;
     font-size: 16px;
 }
@@ -242,15 +238,10 @@ h1{
     color:#c5c6c7;
 }
 
-<<<<<<< HEAD
 .fa-facebook-square, 
 .fa-linkedin-square, 
 .fa-instagram {
     color:#c5c6c7;
-=======
-.meeting-card-logos {
-    color:#C5C6C7;
->>>>>>> 1852a831da6775803c1b7daa90fde19dbfecf64b
 }
 
 @media screen and (min-width:700px) {
