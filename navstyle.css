@@ -27,12 +27,16 @@
 }
 .navbar-brand :hover{
     opacity:0.5;
+    transform: translateY(-2px);
+    box-shadow: 8px 8px 32px rgba(0,0,0,0.2);
 }
 .nav-link{
     color: #45A29E !important;
 }
 .nav-item :hover{
     opacity:0.5;
+    transform: translateY(-2px);
+    box-shadow: 8px 8px 32px rgba(0,0,0,0.2);
 }
 html{
     background-color:#1F2833;
@@ -60,10 +64,12 @@ h1{
     height:130px;
 }
 .socialIcon{
-    color:#45A29E
+    color:#45A29E;
 }
 .socialIcon :hover{
-    opacity:0.5;
+    transform: translateY(-2px);
+    box-shadow: 8px 8px 32px rgba(0,0,0,0.2);
+    color:#c5c6c7;
 }
 .icon-bar {
     position: fixed;
@@ -83,8 +89,17 @@ h1{
 }
 .icon-bar a :hover{
     opacity: 0.5;
+    transform: translateY(-2px);
+    box-shadow: 8px 8px 32px rgba(0,0,0,0.2);
+    color:#c5c6c7;
 }
-
+.bottomImg{
+    width:150px;
+    height:150px;
+}
+.list-item{
+    color:#45A29E !important;
+}
 @media only screen and (min-width: 320px) and (max-width:425px){
     html{
         font-size: 0.4em;
@@ -114,7 +129,7 @@ h1{
     font-size:40px;
     letter-spacing:3px;
     margin-bottom: 30px;
-    color: #45A29E;
+    color: #c5c6c7;
     position: relative;
     text-align: center;
     margin-top: 50px;
@@ -166,7 +181,7 @@ h1{
 }
 
 .job-title {
-    color:#ccc;
+    color:#c5c6c7;
     font-weight: 100;
     font-size: 16px;
 }
@@ -218,13 +233,13 @@ h1{
 .fa-instagram:hover {
     transform: translateY(-2px);
     box-shadow: 8px 8px 32px rgba(0,0,0,0.2);
-    color:lightgrey
+    color:#c5c6c7;
 }
 
 .fa-facebook-square, 
 .fa-linkedin-square, 
 .fa-instagram {
-    color:#ccc;
+    color:#c5c6c7;
 }
 
 @media screen and (min-width:700px) {
