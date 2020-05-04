@@ -116,13 +116,13 @@ h1{
 }
 
 
-/* Meet the team card styling section */
+/* Start of Meet the team card styling section */
 #MeetTheTeamSection {
     background-color:#1F2833;
 }
 
 #meetTeamBody {
-    background-color: lightsalmon;
+    background-color: #C5C6C7;
     
 }
 
@@ -154,7 +154,7 @@ h1{
     justify-content: center;
     margin:20px 15px;
     box-shadow: 8px 8px 8px rgba(0,0,0,0.2);
-    border: 1px solid white;
+    border: 1px solid #C5C6C7;
     height:600px;
     padding: 0 20px;
 }
@@ -183,13 +183,17 @@ h1{
 }
 
 .job-title {
+<<<<<<< HEAD
     color:#c5c6c7;
+=======
+    color:#C5C6C7;
+>>>>>>> 1852a831da6775803c1b7daa90fde19dbfecf64b
     font-weight: 100;
     font-size: 16px;
 }
 
 .about {
-    color:#ccc;
+    color:#C5C6C7;
     font-weight: 100;
     font-size: 15px;
     margin:rem 0;
@@ -238,10 +242,15 @@ h1{
     color:#c5c6c7;
 }
 
+<<<<<<< HEAD
 .fa-facebook-square, 
 .fa-linkedin-square, 
 .fa-instagram {
     color:#c5c6c7;
+=======
+.meeting-card-logos {
+    color:#C5C6C7;
+>>>>>>> 1852a831da6775803c1b7daa90fde19dbfecf64b
 }
 
 @media screen and (min-width:700px) {
@@ -251,6 +260,14 @@ h1{
         justify-content: center;
         align-items: center;
     }
-
-    
 }
+
+@media screen and (min-width:700px) {
+    .card-wrapper {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+/* End of Meeting card styles */
