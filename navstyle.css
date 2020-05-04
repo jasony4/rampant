@@ -183,11 +183,7 @@ footer{
 }
 
 .job-title {
-<<<<<<< HEAD
-    color:#C5C6C7;
-=======
     color:#c5c6c7;
->>>>>>> 6dbe0e9eb0fe659873311bf22ba01679b1fa3a07
     font-weight: 100;
     font-size: 16px;
 }
@@ -242,15 +238,10 @@ footer{
     color:#c5c6c7;
 }
 
-<<<<<<< HEAD
-.meeting-card-logos {
-    color:#C5C6C7;
-=======
 .fa-facebook-square, 
 .fa-linkedin-square, 
 .fa-instagram {
     color:#c5c6c7;
->>>>>>> 6dbe0e9eb0fe659873311bf22ba01679b1fa3a07
 }
 
 @media screen and (min-width:700px) {
