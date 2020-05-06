@@ -262,3 +262,7 @@ footer{
     }
 }
 /* End of Meeting card styles */
+#canvasTest{
+    width:100vw;
+    height:1000px;
+}
