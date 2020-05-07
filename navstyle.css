@@ -271,8 +271,8 @@ footer{
 }
 #showOver{
     position:absolute;
-    width:1000px;
-    transform: translateY(400%);
+    width:760px;
+    transform: translateY(300%);
 }
 .jumboContainer{
     width:100vw;

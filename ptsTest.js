@@ -30,7 +30,8 @@ Pts.quickStart( "#canvasTest", "#1f2833" );
           let dist = (r - pts[i].$subtract(space.pointer).magnitude() ) / r;
           let p = pts[i].$subtract( space.pointer ).scale( 1+dist ).add( space.pointer );
           form.fillOnly( colors[i%4] ).point( p, dist*25, "circle" );
-          
+          //rotate points
+          pts.rotate2D( Const.one_degree / 10, space.center);
         } else {
           form.fillOnly("#fff").point(pts[i], 0.5);
         }
