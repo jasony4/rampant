@@ -263,6 +263,17 @@ footer{
 }
 /* End of Meeting card styles */
 #canvasTest{
+    overflow-x: none;
+    border-radius:8px;
+}
+.jumbotron{
+    background-color: #1F2833 !important;
+}
+#showOver{
+    position:absolute;
+    width:1000px;
+    transform: translateY(400%);
+}
+.jumboContainer{
     width:100vw;
-    height:100vh;
 }
