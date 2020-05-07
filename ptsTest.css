@@ -1,0 +1,10 @@
+body{
+    max-height:100vh;
+    overflow-y:none;
+    overflow-x:none;
+    
+}
+html{
+    overflow-y:none;
+    overflow-x:none;
+}
