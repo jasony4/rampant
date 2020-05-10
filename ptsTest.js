@@ -26,9 +26,9 @@ Pts.quickStart( "#canvasTest", "#1f2833" );
                             pts3 = Create.distributeRandom( space.innerBound, 100);
                           pts4 = Create.distributeRandom( space.innerBound, 100);
                         pts5 = Create.distributeRandom( space.innerBound, 100);
-                        pts6 = Create.distributeRandom( space.innerBound, 100); 
+                        pts6 = Create.distributeRandom( space.innerBound, 200); 
                         pts7 = Create.distributeRandom( space.innerBound, 2); 
-                        pts8 = Create.distributeRandom( space.innerBound, 300); 
+                        pts8 = Create.distributeRandom( space.innerBound, 100); 
 
                   },
     
@@ -38,7 +38,7 @@ Pts.quickStart( "#canvasTest", "#1f2833" );
 
       
       // check if each point is within circle's range
-      for (let i=0, len=pts.length; i<len; i++) {
+      for (let i=0, len=pts6.length; i<len; i++) {
 
 
           form.fillOnly("whitesmoke").point(pts[i], 1);

@@ -1,0 +1,275 @@
+/*css doc
+  colors:
+        #0B0c10
+        #1F2833
+        #C5C6C7
+        #66FCF1
+        #45A29E
+*/
+* , *::before , *::after{
+    box-sizing:border-box;
+}
+/*nav styling*/
+.dropMenuIcon {
+    color:red;
+}
+
+.navbar {
+    background-color: #1F2833 !important;
+}
+
+.navbar-toggler {
+    color:red !important;
+}
+
+.navbar-brand {
+    color:#45A29E !important
+}
+.navbar-brand :hover{
+    opacity:0.5;
+    transform: translateY(-2px);
+    box-shadow: 8px 8px 32px rgba(0,0,0,0.2);
+}
+.nav-link{
+    color: #45A29E !important;
+}
+.nav-item :hover{
+    opacity:0.5;
+    transform: translateY(-2px);
+    box-shadow: 8px 8px 32px rgba(0,0,0,0.2);
+}
+html{
+    background-color:#1F2833;
+    font-family:'Baloo Bhaina 2', cursive !important;
+    height:100vh;
+}
+body{
+    background-color:#1F2833 !important;
+    color: #C5C6C7;
+    font-family:'Baloo Bhaina 2', cursive !important;
+    height:100vh;
+}
+h1{
+    color: #C5C6C7;
+}
+#homeBtn{
+    background-color: #66FCF1;
+}
+#homeBtnLink :hover{
+    opacity:0.5;
+}
+.imgHov :hover{opacity:0.5;}
+footer{
+    display:none;
+}
+.foot{
+    background-color:#c5c6c7 !important;
+    color:#45A29E !important;
+    height:130px;
+}
+.socialIcon{
+    color:#45A29E;
+}
+.socialIcon :hover{
+    transform: translateY(-2px);
+    box-shadow: 8px 8px 32px rgba(0,0,0,0.2);
+    color:#45A29E;
+}
+.icon-bar {
+    position: fixed;
+    padding-top:10%;
+    top: 30%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: #45A29E;
+    font-size: 20px;
+}
+.icon-bar a :hover{
+    opacity: 0.5;
+    transform: translateY(-2px);
+    box-shadow: 8px 8px 32px rgba(0,0,0,0.2);
+}
+.bottomImg{
+    width:150px;
+    height:150px;
+}
+#homeInsta, #footerInsta {
+    color:#45A29E;
+}
+@media only screen and (min-width: 320px) and (max-width:425px){
+    html{
+        font-size: 0.4em;
+    }
+
+}
+@media only screen and (min-width: 426px) and (max-width:768px){
+    html{
+        font-size: 0.8em;
+    }
+
+}
+
+
+/* Start of Meet the team card styling section */
+#MeetTheTeamSection {
+    background-color:#1F2833;
+}
+
+#meetTeamBody {
+    background-color: #C5C6C7;
+    
+}
+
+.team-heading {
+    color:black;
+    font-size:40px;
+    letter-spacing:3px;
+    margin-bottom: 30px;
+    color: #c5c6c7;
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.card-wrapper {
+    display:flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.card {
+    width:330px;
+    background-color: #1F2833;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:20px 15px;
+    box-shadow: 8px 8px 8px rgba(0,0,0,0.2);
+    border: 1px solid #C5C6C7;
+    height:600px;
+    padding: 0 20px;
+}
+
+.card .card-img {
+    height:100%;
+    width: auto;
+    height:200px;
+    object-fit:cover;
+    ;
+}
+
+.profile-img {
+    width:160px;
+    height:160px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -80px;
+    z-index: 999;
+    border:1px solid #1F2833;
+}
+
+.card h1 {
+    font-size: 25px;
+    margin:0px 0;
+}
+
+.job-title {
+    color:#c5c6c7;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.about {
+    color:#C5C6C7;
+    font-weight: 100;
+    font-size: 15px;
+    margin:rem 0;
+    font-style: italic;
+    text-align: center;
+}
+
+.card .btn {
+    padding:8px 15px;
+    background-color: #45A29E !important;
+    border-radius: 18px ;
+    margin: 0;
+    color:#1F2833;
+    font-size: 16px;
+    transition:all .3s;
+}
+
+.card .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 8px 8px 32px rgba(0,0,0,0.2);
+}
+
+.card .btn:active {
+    transform: translateY(0px);
+    box-shadow: none;
+}
+
+.social-media {
+    width:100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding:16px 0;
+}
+
+.social-media i{
+    font-size: 24px;
+    transition:all 0.5s
+}
+
+.fa-facebook-square:hover, 
+.fa-linkedin-square:hover, 
+.fa-instagram:hover {
+    transform: translateY(-2px);
+    box-shadow: 8px 8px 32px rgba(0,0,0,0.2);
+    color:#c5c6c7;
+}
+
+.fa-facebook-square, 
+.fa-linkedin-square, 
+.fa-instagram {
+    color:#c5c6c7;
+}
+
+@media screen and (min-width:700px) {
+    .card-wrapper {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width:700px) {
+    .card-wrapper {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+/* End of Meeting card styles */
+#canvasTest{
+    width: 100vw;
+    height: 100vh;
+}
+div#canv{
+    height:100vh;
+    width:100vw;
+}
