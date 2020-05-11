@@ -43,14 +43,14 @@ Pts.quickStart( "#canvasTest", "#1f2833" );
       for (let i=0, len=pts8.length; i<len; i++) {
 
 
-          form.fillOnly("whitesmoke").point(pts[i], 0.5);
+          form.fillOnly("whitesmoke").point(pts[i], 1);
           form.fillOnly("white").point(pts2[i], 0.5);
           form.fillOnly("whitesmoke").point(pts3[i], 0.5);
           form.fillOnly("whitesmoke").point(pts4[i], 0.5);
           form.fillOnly("whitesmoke").point(pts5[i], 1.5);
           form.fillOnly("#fcf923").point(pts6[i], 0.5);
           form.fillOnly("#fcf923").point(pts7[i], 1);
-          form.fillOnly("#1f2833").point(pts8[i], 5);
+          form.fillOnly("#1f2833").point(pts8[i], 10);
        
           
           
@@ -58,12 +58,12 @@ Pts.quickStart( "#canvasTest", "#1f2833" );
 
       }
      // pts.rotate2D( 0.0002, space.center);
-      pts2.rotate2D( 0.0003, space.center);
-      pts3.rotate2D( 0.0004, space.center);
-      pts4.rotate2D( -0.0005, space.center);
-      pts5.rotate2D( -0.0004, space.center);
-      pts6.rotate2D( -0.0003, space.center);
-      pts7.rotate2D( -0.005, space.center);
+      pts2.rotate2D( 0.00035, space.center);
+      pts3.rotate2D( 0.00025, space.center);
+      pts4.rotate2D( -0.00005, space.center);
+      pts5.rotate2D( -0.0000, space.center);
+      pts6.rotate2D( -0.00003, space.center);
+      pts7.rotate2D( -0.0005, space.center);
       pts8.rotate2D( -0.02, space.center);
 
       
