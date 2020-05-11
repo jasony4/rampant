@@ -41,13 +41,21 @@
 html{
     background-color:#1F2833;
     font-family:'Baloo Bhaina 2', cursive !important;
-    height:100vh;
+    
 }
-body{
+section#index{
     background-color:#1F2833 !important;
     color: #C5C6C7;
     font-family:'Baloo Bhaina 2', cursive !important;
     height:100vh;
+}
+section#about{
+    background-color:#45A29E;
+    height:100vh;
+    color:#1F2833;
+}
+h1#aboutHeader{
+    color:#1F2833;
 }
 h1{
     color: #C5C6C7;
@@ -279,7 +287,7 @@ div#canv{
     margin:0 auto;
     width:450px;
     height:175px;
-    top: calc(50vh - (/* height */175px / 2));
+    top: calc(50vh - (/* height */175px / 2)); 
     left: calc(50vw - (/* width */450px / 2)); 
     opacity:0.8;
 }
