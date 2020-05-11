@@ -30,32 +30,7 @@
      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/pts/0.9.4/pts.min.js"></script>
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script>
-        $(document).ready(function(){
-        // Add smooth scrolling to all links
-        $("a").on('click', function(event) {
 
-            // Make sure this.hash has a value before overriding default behavior
-            if (this.hash !== "") {
-            // Prevent default anchor click behavior
-            event.preventDefault();
-
-            // Store hash
-            var hash = this.hash;
-
-            // Using jQuery's animate() method to add smooth page scroll
-            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-            $('html, body').animate({
-                scrollTop: $(hash).offset().top
-            }, 1200, function(){
-        
-                // Add hash (#) to URL when done scrolling (default click behavior)
-                window.location.hash = hash;
-            });
-            } // End if
-        });
-        });
-        </script>
 </head>
 
 
@@ -71,75 +46,65 @@
     </div> 
     </section>
     <section id="about">
-        <div class="container-fluid text-center">
+       <!-- <div class="container-fluid text-center">
             <div class="row-cols-12">
                 <h1>our story</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In veniam veritatis, architecto, et doloribus provident nesciunt necessitatibus nihil, nulla voluptas similique repellendus quis vitae? Sapiente doloribus atque consectetur ipsum beatae nesciunt sequi hic recusandae, quidem aliquam voluptatibus, enim iure temporibus itaque? Accusamus aut iusto ea obcaecati debitis sit temporibus ducimus hic magni aperiam commodi eligendi reiciendis, dolor consectetur reprehenderit non impedit minus quasi praesentium! At voluptas sunt quia ut modi iusto, sint ipsum cum quisquam quae doloremque placeat odit non, quo facere deleniti ipsa impedit temporibus recusandae alias neque tempore dolor laboriosam sequi? Sapiente quidem cupiditate alias, asperiores doloribus obcaecati enim pariatur velit optio reiciendis non! Dolore suscipit dolorem nostrum perferendis voluptatum quae libero amet porro doloribus voluptatibus facere enim, aliquam quas voluptate explicabo consequatur. Labore incidunt ea reprehenderit et, soluta dolorem! Quibusdam atque laborum alias assumenda ipsa eligendi cumque? Eveniet distinctio, quia asperiores doloremque saepe vero ipsum ipsam est!</p>
             </div>
-        </div>
+        </div>-->
         <div class="container-fluid">
-            <h1 class="team-heading">meet the team</h1>
-            <div class="card-wrapper">
-                <div class="card">
-                    <!-- card background image -->
-                    <img class="profile-img" src="jay.jpg" alt=""><!-- profile image -->
-                    <h1>Jason Young</h1>
-                    <p class="job-title">Lead Gigolo</p>
-                    <p class="about">Jason has been offering his services on the streets since he was a wee 10 year old.
-                                    Demand for jasons services exploded before 2020 but dues to the recent Corona outbreak.
-                    </p>
-                    <a href="mailto:jasony4@gmail.com" class="btn">Contact</a>
-                    <ul class="social-media">
-                        <li><a href="#"><i class="fa fa-facebook-square meeting-card-logos"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin-square meeting-card-logos"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram meeting-card-logos"></i></a></li>
-                    </ul>
-                    
+            <div class="row-cols-12">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img class="team-img" src="alex.jpg">
+                        <h1>Alex Chang</h1>
+                            <p class="job-title">Assistant Gigolo</p>
+                            <p class="about">Alex has also been offering his services on the streets since he was a wee 10 year old.
+                                Demand for Alexs services exploded before 2020 but dues to the recent Corona outbreak, 
+                            </p>
+                            <a href="mailto:iamalexchangi@gmail.com" class="btn btn-primary">Contact</a>
+                        </div>
+                    <div class="swiper-slide">
+                        <img class="team-img" src="jay.jpg">
+                        <h1>Jason Young</h1>
+                            <p class="job-title">Lead Gigolo</p>
+                            <p class="about">Jason has been offering his services on the streets since he was a wee 10 year old.
+                                            Demand for jasons services exploded before 2020 but dues to the recent Corona outbreak.
+                            </p>
+                            <a href="mailto:jasony4@gmail.com" class="btn btn-primary">Contact</a>
+                        </div>
+                    <div class="swiper-slide">
+                        <img class="team-img" src="jaysballie.jpg">
+                        <h1>Jay's ballie</h1>
+                            <p class="job-title">Lead Gigolo</p>
+                            <p class="about">Taught Jason everything he knows, had an illustrius career and now spends his time 
+                                            going to for quiet walks, drinking tea.
+                            </p>
+                            <a href="mailto:gotodavid5@gmail.com" class="btn btn-primary">Contact</a>
+                    </div>
                 </div>
-
-                <div class="card">
-                    <!-- card background image -->
-                    <img class="profile-img" src="alex.jpg" alt=""><!-- profile image -->
-                    <h1>Alex Chang</h1>
-                    <p class="job-title">Assistant Gigolo</p>
-                    <p class="about">Alex has also been offering his services on the streets since he was a wee 10 year old.
-                        Demand for Alexs services exploded before 2020 but dues to the recent Corona outbreak, 
-                    </p>
-                    <a href="mailto:iamalexchangi@gmail.com" class="btn">Contact</a>
-                    <ul class="social-media">
-                        <li><a href="#"><i class="fa fa-facebook-square meeting-card-logos"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin-square meeting-card-logos"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram meeting-card-logos"></i></a></li>
-                    </ul>
-                    
-                </div>
-
-                <div class="card">
-                    <!-- card background image -->
-                    <img class="profile-img" src="jaysballie.jpg" alt=""><!-- profile image -->
-                    <h1>Jay's ballie</h1>
-                    <p class="job-title">Lead Gigolo</p>
-                    <p class="about">Taught Jason everything he knows, had an illustrius career and now spends his time 
-                                    going to for quiet walks, drinking tea.
-                    <br>
-                    <br> <!-- take these out -->
-                    <br>
-                    </p>
-                    <a href="mailto:gotodavid5@gmail.com" class="btn">Contact</a>
-                    <ul class="social-media">
-                        <li><a href="#"><i class="fa fa-facebook-square meeting-card-logos"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin-square meeting-card-logos"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram meeting-card-logos"></i></a></li>
-                    </ul>
-                    
-                </div>
+               
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+        
+              </div>
             </div>
-        </div>
+            </div>
+             
     </section>
 
 
 
-    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+ <!-- Swiper JS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+ 
+    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+
+<!-- Initialize Swiper -->
+    <script src="app2.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>   
     <script src="ptsTest.js"></script>     

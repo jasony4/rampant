@@ -61,10 +61,10 @@ Pts.quickStart( "#canvasTest", "#1f2833" );
       pts2.rotate2D( 0.00035, space.center);
       pts3.rotate2D( 0.00025, space.center);
       pts4.rotate2D( -0.00005, space.center);
-      pts5.rotate2D( -0.0000, space.center);
+      pts5.rotate2D( -0.00000, space.center);
       pts6.rotate2D( -0.00003, space.center);
       pts7.rotate2D( -0.0005, space.center);
-      pts8.rotate2D( -0.02, space.center);
+      pts8.rotate2D( -0.05, space.center);
 
       
       
