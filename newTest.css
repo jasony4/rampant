@@ -32,6 +32,11 @@ section#about{
     height:100vh;
     color:#45A29E;
 }
+section#services{
+    background-color:#1F2833;
+    color:#C5C6C7;
+    height:100vh;
+}
 @media only screen and (min-width: 320px) and (max-width:425px){
     html{
         font-size: 0.4em;
@@ -43,6 +48,12 @@ section#about{
         font-size: 0.8em;
     }
 
+}
+.serviceList{
+    background-color:#45A29E;
+    color:#1F2833;
+    border: #1F2833 solid 1px;
+    border-radius:8px;
 }
 /* End of Meeting card styles */
 #canvasTest{
@@ -87,4 +98,8 @@ div#canv{
   }
 .container-fluid{
     background-color:#1F2833;
+}
+
+#iconList{
+    font-size:2em;
 }

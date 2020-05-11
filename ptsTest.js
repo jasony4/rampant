@@ -22,7 +22,7 @@ Pts.quickStart( "#canvasTest", "#1f2833" );
   space.add( { 
 
     // init with 500 random points 
-         start:  (bound) => { pts = Create.distributeRandom( space.innerBound, 200);
+         start:  (bound) => { pts = Create.distributeRandom( space.innerBound, 100);
                               pts2 = Create.distributeRandom( space.innerBound, 200);
                             pts3 = Create.distributeRandom( space.innerBound, 200);
                           pts4 = Create.distributeRandom( space.innerBound, 200);
@@ -30,6 +30,7 @@ Pts.quickStart( "#canvasTest", "#1f2833" );
                         pts6 = Create.distributeRandom( space.innerBound, 200); 
                         pts7 = Create.distributeRandom( space.innerBound, 2); 
                         pts8 = Create.distributeRandom( space.innerBound, 300);
+                        pts9 = Create.distributeRandom( space.innerBound, 200);
                        
 
                   },
@@ -51,21 +52,21 @@ Pts.quickStart( "#canvasTest", "#1f2833" );
           form.fillOnly("#fcf923").point(pts6[i], 0.5);
           form.fillOnly("#fcf923").point(pts7[i], 1);
           form.fillOnly("#1f2833").point(pts8[i], 10);
-       
+          form.fillOnly("#fcf923").point(pts9[i], 0.5);
           
           
            
 
       }
-     // pts.rotate2D( 0.0002, space.center);
+      pts.rotate2D( 0.0002, space.center);
       pts2.rotate2D( 0.00035, space.center);
       pts3.rotate2D( 0.00025, space.center);
       pts4.rotate2D( -0.00005, space.center);
       pts5.rotate2D( -0.00000, space.center);
       pts6.rotate2D( -0.00003, space.center);
       pts7.rotate2D( -0.0005, space.center);
-      pts8.rotate2D( -0.05, space.center);
-
+      pts8.rotate2D( -0.75, space.center);
+      pts9.rotate2D(0.00015, space.center);
       
       
     }
