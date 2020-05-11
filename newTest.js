@@ -1,3 +1,5 @@
+function stars(){
+
 Pts.quickStart( "#canvasTest", "#1f2833" );
 (function() {
   
@@ -34,3 +36,10 @@ space.add( {
   space.bindMouse().bindTouch().play();
   
 })();
+}
+stars();
+$(window).resize(function(){
+    space.removeAll();
+    $('canvas').remove();
+    stars();
+  });
