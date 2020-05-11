@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <style>
+        body {
+          background: #fff;
+          font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+          font-size: 14px;
+          color:#000;
+          margin: 0;
+          padding: 0;
+        }
+        .swiper-container {
+          width: 30%;
+          height:20%;
+          padding-top: 50px;
+          padding-bottom: 50px;
+          margin-top: 100px;
+        }
+        .swiper-slide {
+          background-position: center;
+          background-size: cover;
+          width: 300px;
+          height: 300px;
+          text-align:center;
+        }
+
+        .team-img {
+            object-fit: cover;
+            height:300px;
+            width:300px;
+            
+        }
+
+      </style>
+    
+</head>
+<body>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img class="team-img" src="alex.jpg">
+                <h1>Alex Chang</h1>
+                    <p class="job-title">Assistant Gigolo</p>
+                    <p class="about">Alex has also been offering his services on the streets since he was a wee 10 year old.
+                        Demand for Alexs services exploded before 2020 but dues to the recent Corona outbreak, 
+                    </p>
+                    <a href="mailto:iamalexchangi@gmail.com" class="btn btn-primary">Contact</a>
+                </div>
+            <div class="swiper-slide">
+                <img class="team-img" src="jay.jpg">
+                <h1>Jason Young</h1>
+                    <p class="job-title">Lead Gigolo</p>
+                    <p class="about">Jason has been offering his services on the streets since he was a wee 10 year old.
+                                    Demand for jasons services exploded before 2020 but dues to the recent Corona outbreak.
+                    </p>
+                    <a href="mailto:jasony4@gmail.com" class="btn btn-primary">Contact</a>
+                </div>
+            <div class="swiper-slide">
+                <img class="team-img" src="jaysballie.jpg">
+                <h1>Jay's ballie</h1>
+                    <p class="job-title">Lead Gigolo</p>
+                    <p class="about">Taught Jason everything he knows, had an illustrius career and now spends his time 
+                                    going to for quiet walks, drinking tea.
+                    </p>
+                    <a href="mailto:gotodavid5@gmail.com" class="btn btn-primary">Contact</a>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+      </div>
+
+      <!-- Swiper JS -->
+      <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+      <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+      
+      <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+      <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+      navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    });
+
+    
+
+  </script>
+    
+</body>
+</html>
