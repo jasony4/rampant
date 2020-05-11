@@ -134,6 +134,7 @@ footer{
 /* Start of Meet the team card styling section */
 #MeetTheTeamSection {
     background-color:#1F2833;
+    font-size: 1 em;
 }
 
 #meetTeamBody {
@@ -143,13 +144,13 @@ footer{
 
 .team-heading {
     color:black;
-    font-size:40px;
-    letter-spacing:3px;
-    margin-bottom: 30px;
+    font-size:2em;
+    letter-spacing:0.5em;
+    margin-bottom: 5vh;
     color: #c5c6c7;
     position: relative;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 5vh;
 }
 
 
@@ -161,64 +162,57 @@ footer{
 }
 
 .card {
-    width:330px;
+    width:60vw; /* needs media query */
     background-color: #1F2833;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin:20px 15px;
+    margin:2vh 2vh;
     box-shadow: 8px 8px 8px rgba(0,0,0,0.2);
     border: 1px solid #C5C6C7;
     height:50vh;
-    padding: 0 20px;
+    padding: 0 1vh;
+    font-size: 7px;
 }
 
-.card .card-img {
-    height:100%;
-    width: auto;
-    height:200px;
-    object-fit:cover;
-    ;
-}
 
 .profile-img {
-    width:160px;
-    height:160px;
+    width:13vh;
+    height:13vh;
     object-fit: cover;
     border-radius: 50%;
-    margin-top: -80px;
     z-index: 999;
     border:1px solid #1F2833;
 }
 
 .card h1 {
-    font-size: 25px;
+    font-size: 2.5em;
     margin:0px 0;
 }
 
 .job-title {
     color:#c5c6c7;
     font-weight: 100;
-    font-size: 16px;
+    font-size: 2em;
 }
 
 .about {
     color:#C5C6C7;
     font-weight: 100;
-    font-size: 15px;
+    font-size: 1.5em;
     margin:rem 0;
     font-style: italic;
     text-align: center;
 }
 
 .card .btn {
-    padding:8px 15px;
+    padding:1vh 1vh;
     background-color: #45A29E !important;
     border-radius: 18px ;
     margin: 0;
     color:#1F2833;
-    font-size: 16px;
+    font-size: 1.5em;
     transition:all .3s;
 }
 
@@ -266,16 +260,12 @@ footer{
         justify-content: center;
         align-items: center;
     }
-}
-
-@media screen and (min-width:700px) {
-    .card-wrapper {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
+    .card {
+        width:15vw; /* needs media query */
+        font-size: 0.6em;
     }
 }
+
 
 
 /* End of Meeting card styles */
