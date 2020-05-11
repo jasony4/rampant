@@ -281,9 +281,9 @@ div#canv{
     position:absolute;
     background-color:#1F2833;
     margin:0 auto;
-    width:450px;
-    height:175px;
-    top: calc(50vh - (/* height */175px / 2)); 
-    left: calc(50vw - (/* width */450px / 2)); 
+    width:35vw;
+    height:20vh;
+    top: calc(50vh - (/* height */20vh / 2)); 
+    left: calc(50vw - (/* width */35vw / 2)); 
     opacity:0.8;
 }
