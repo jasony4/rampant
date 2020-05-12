@@ -71,22 +71,27 @@
                 </div>
                </div>
         </div>
-        <div class="container-fluid text-center mt-3">
+        <div class="container-fluid text-center m-2">
             <div class="row text-center mb-3">
                 <div class="col-sm-12">
                     <h2>we do this by</h2>
                 </div>
                </div>
-               <div class="row tex-center justify-content-center">
+               <div class="row tex-center justify-content-center m-2">
                 <div class="col-sm-12 mt-3">
                    <ul class="list-group-horizontal list-inline list-unstyled justify-content-start">
-                       <li class="list-inline-item mr-5"><i id="iconList" class="fa fa-bong"></i><br>ripping bong</li>
-                       <li class="list-inline-item ml-5 mr-5"><i id="iconList" class="fas fa-cannabis"></i><br>obtaining dank</li>
-                       <li class="list-inline-item ml-5 mr-5"><i id="iconList" class="fab fa-pied-piper-alt"></i><br>420 blaze it</li>
-                       <li class="list-inline-item ml-5"><i id="iconList" class="fas fa-flushed"></i><br>getting goofed</li>
+                       <li class="list-inline-item mr-5"><i id="iconList" class="fas fa-laptop-code"></i><br>responsive designing</li>
+                       <li class="list-inline-item ml-5 mr-5"><i id="iconList" class="fas fa-space-shuttle"></i><br>creating for faster load time</li>
+                       <li class="list-inline-item ml-5 mr-5"><i id="iconList" class="fas fa-chart-line"></i><br>creating efficient management solutions</li>
+                       <li class="list-inline-item ml-5"><i id="iconList" class="fas fa-people-arrows"></i><br>keeping you and the user in mind</li>
                    </ul>
                 </div>
                </div>
+        </div>
+        <div class="container-fluid text-center p-4">
+            <div class="row-cols-12">
+                <a href="#contact"><button class="btn btn-info"> find out more </button></a>
+            </div>
         </div>
     </section>
     <section id="about">
@@ -96,8 +101,9 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In veniam veritatis, architecto, et doloribus provident nesciunt necessitatibus nihil, nulla voluptas similique repellendus quis vitae? Sapiente doloribus atque consectetur ipsum beatae nesciunt sequi hic recusandae, quidem aliquam voluptatibus, enim iure temporibus itaque? Accusamus aut iusto ea obcaecati debitis sit temporibus ducimus hic magni aperiam commodi eligendi reiciendis, dolor consectetur reprehenderit non impedit minus quasi praesentium! At voluptas sunt quia ut modi iusto, sint ipsum cum quisquam quae doloremque placeat odit non, quo facere deleniti ipsa impedit temporibus recusandae alias neque tempore dolor laboriosam sequi? Sapiente quidem cupiditate alias, asperiores doloribus obcaecati enim pariatur velit optio reiciendis non! Dolore suscipit dolorem nostrum perferendis voluptatum quae libero amet porro doloribus voluptatibus facere enim, aliquam quas voluptate explicabo consequatur. Labore incidunt ea reprehenderit et, soluta dolorem! Quibusdam atque laborum alias assumenda ipsa eligendi cumque? Eveniet distinctio, quia asperiores doloremque saepe vero ipsum ipsam est!</p>
             </div>
         </div>-->
-        <div class="container-fluid">
+        <div class="container-fluid text-center">
             <div class="row-cols-12">
+                <h1>who does this for you</h1>
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -136,6 +142,134 @@
             </div>
             </div>
              
+    </section>
+    <section id="contact">
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#simpleContactModal">leave your details</button>
+
+
+<div id="simpleContactModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+            <div class="col-xs-12">
+                <form class="form-group">
+                    <h2>leave us your details</h2>
+                    <div class="col-xs-12">
+                        <label for="simpleName">name:</label>
+                        <input id="simpleName" class="form-control" name="simpleName">
+                    </div>
+                    <div class="col-xs-12">
+                        <label for="simplePhone">phone:</label>
+                        <input id="simplePhone" class="form-control" name="simplePhone">
+                    </div>
+                    <div class="col-xs-12>
+                        <label for="simpleEmail">email:</label>
+                        <input id="simpleEmail" class="form-control" name="simpleEmail">
+                    </div>
+                    <div class="col-xs-12">
+                        <button class="btn btn-primary" type="submit">send</button>
+                    </div>
+                </form>
+            </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#contactModal">submit our form</button>
+
+
+<div id="contactModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <form id="contact-form" method="post" action="contact.php" role="form">
+
+            <div class="messages"></div>
+        
+            <div class="controls pt-0.5">
+        
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label class="contactLabel" for="form_name">first name</label>
+                            <input id="form_name" type="text" name="name" class="form-control" placeholder="your first name" required="required" data-error="Firstname is required.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label class="contactLabel" for="form_lastname">last name</label>
+                            <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="your last name" required="required" data-error="Lastname is required.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label class="contactLabel" for="form_email">email</label>
+                            <input id="form_email" type="email" name="email" class="form-control" placeholder="your mail" required="required" data-error="Valid email is required.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label class="contactLabel" for="form_need">please specify your need</label>
+                            <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                                <option value=""></option>
+                                <option value="Request quotation">Request quotation</option>
+                                <option value="Request copy of an invoice">Request copy of an invoice</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label class="contactLabel" for="form_message">Message *</label>
+                            <textarea id="form_message" name="message" class="form-control" placeholder="give us some details" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <input type="submit" class="submitButton btn-success btn btn-send" value="Send message">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="text-muted">
+                            </p>
+                    </div>
+                    
+                </div>
+            </div>
+        
+        </form>
+        </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    
+
+  </div>
+
     </section>
 
 
