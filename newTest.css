@@ -1,0 +1,246 @@
+/*css doc
+  colors:
+        #0B0c10
+        #1F2833
+        #C5C6C7
+        #66FCF1
+        #45A29E
+*/
+* , *::before , *::after{
+    box-sizing:border-box;
+}
+
+/* html {
+    scroll-behavior: smooth;
+} */
+html{
+    background-color:#1F2833;
+    font-family:'Baloo Bhaina 2', cursive !important;
+    
+}
+body{
+    background-color:#1F2833;
+}
+section#index{
+    background-color:#1F2833 !important;
+    color: #C5C6C7;
+    font-family:'Baloo Bhaina 2', cursive !important;
+    height:100vh;
+}
+section#about{
+    background-color:#1F2833;
+    height:100vh;
+    color:#c5c6c7;
+}
+section#services{
+    background-color:#1F2833;
+    color:#C5C6C7;
+    height:100vh;
+}
+section#contact{
+    height:100vh;
+    color:#C5C6C7;
+}
+@media only screen and (min-width: 320px) and (max-width:425px){
+    html{
+        font-size: 0.4em;
+    }
+
+}
+@media only screen and (min-width: 426px) and (max-width:768px){
+    html{
+        font-size: 0.8em;
+    }
+
+}
+.serviceList{
+    background-color:#45A29E;
+    color:#1F2833;
+    border: #1F2833 solid 1px;
+    border-radius:8px;
+}
+/* End of Meeting card styles */
+#canvasTest{
+    width: 100vw;
+    height: 100vh;
+}
+div#canv{
+    height:100vh;
+    width:100vw;
+}
+#showOver{
+    position:absolute;
+    background-color:#1F2833;
+    margin:0 auto;
+    width:35vw;
+    height:20vh;
+    top: calc(50vh - (/* height */20vh / 2)); 
+    left: calc(50vw - (/* width */35vw / 2)); 
+    opacity:0.8;
+}  
+
+  .swiper-container {
+    width: 60vw;
+    height:15%;
+    padding-top: 0px;/*50px*/
+    padding-bottom: 0px;/*50px*/
+    margin-top: 100px;
+    color:#C5C6C7;
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    text-align:center;
+  }
+
+  .team-img {
+      object-fit: cover;
+      height:250px;
+      width:250px;
+      
+  }
+.container-fluid{
+    background-color:#1F2833;
+}
+
+#iconList{
+    font-size:4em;
+}
+#simpleContactModal, #contactModal, #detailsModal{
+    color:#1F2833;
+}
+.modal-header, .modal-footer{
+    background-color:#45A29E;
+}
+
+
+/* meet the team testing */
+.rel,.insideRel{
+    position:relative;
+    margin-top:20vh;
+}
+#main{
+    position: absolute;
+    top:35%;
+    left: 45%;
+    background-color: royalblue !important;
+}
+
+.member-image {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.member-name {
+    font-size:medium
+}
+
+.member-container{
+    text-align: center;
+    background-color: #1F2833;
+    height:100%;
+    border-radius: 20%;
+    border: 2px solid #c5c6c7;
+    color:#C5C6C7;
+    overflow: hidden;
+}
+
+.member-title {
+    font-size: small;
+}
+
+.about-member {
+    font-size: x-small;
+}
+
+.member-li {
+    list-style: none;
+}
+
+#side1{
+    height: 40vh;
+    width: 20vh;
+    position: absolute;
+    transform: translateX(0px) scale(1.5);
+    z-index: 99;
+    transition: all .5s;
+}
+#side2{
+    height: 40vh;
+    width: 20vh;
+    position: absolute;
+    transform: translateX(-200px);
+    z-index: 9;
+    transition: all .5s;
+}
+#side3{
+    height: 40vh;
+    width: 20vh;
+    position: absolute;
+    transform: translateX(200px);
+    z-index: 9;
+    transition: all .5s;
+}
+#pre{
+    height: 30px;
+    width: 100px;
+    font-family: inherit;
+    font-size: 15px;
+    text-align: center;
+    position: absolute;
+    top:50%;
+    left: 20%;
+}
+#pre:hover{
+    cursor: pointer;
+}
+#nex{
+    height: 30px;
+    width: 100px;
+    font-family: inherit;
+    font-size: 15px;
+    text-align: center;
+    position: absolute;
+    top:50%;
+    right: 20%;
+}
+#nex:hover{
+    cursor: pointer;
+}
+
+.card .btn {
+    padding:8px 15px;
+    background-color: #45A29E !important;
+    border-radius: 18px ;
+    margin: 0;
+    color:#1F2833;
+    font-size: 16px;
+    transition:all .3s;
+}
+
+.card .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 8px 8px 32px rgba(0,0,0,0.2);
+}
+
+.card .btn:active {
+    transform: translateY(0px);
+    box-shadow: none;
+}
+
+.social-media {
+    width:100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding:16px 0;
+    color:#c5c6c7;
+}
+
+.social-media i{
+    font-size: 24px;
+    transition:all 0.5s;
+    color:#c5c6c7
+}

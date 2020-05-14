@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!-- FAVICONS -->
+     <link rel="apple-touch-icon" sizes="57x57" href="favicon.ico/apple-icon-57x57.png">
+     <link rel="apple-touch-icon" sizes="60x60" href="favicon.ico/apple-icon-60x60.png">
+     <link rel="apple-touch-icon" sizes="72x72" href="favicon.ico/apple-icon-72x72.png">
+     <link rel="apple-touch-icon" sizes="76x76" href="favicon.ico/apple-icon-76x76.png">
+     <link rel="apple-touch-icon" sizes="114x114" href="favicon.ico/apple-icon-114x114.png">
+     <link rel="apple-touch-icon" sizes="120x120" href="favicon.ico/apple-icon-120x120.png">
+     <link rel="apple-touch-icon" sizes="144x144" href="favicon.ico/apple-icon-144x144.png">    
+     <link rel="apple-touch-icon" sizes="152x152" href="favicon.ico/apple-icon-152x152.png">
+     <link rel="apple-touch-icon" sizes="180x180" href="favicon.ico/apple-icon-180x180.png">
+     <link rel="icon" type="image/png" sizes="192x192"  href="favicon.ico/android-icon-192x192.png">
+     <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico/favicon-32x32.png">
+     <link rel="icon" type="image/png" sizes="96x96" href="favicon.ico/favicon-96x96.png">
+     <link rel="icon" type="image/png" sizes="16x16" href="favicon.ico/favicon-16x16.png">
+     <link rel="manifest" href="favicon.ico/manifest.json">
+     <meta name="msapplication-TileColor" content="#ffffff">
+     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+     <meta name="theme-color" content="#ffffff">
+     <!-- END FAVICONS -->
+     <script src="https://kit.fontawesome.com/1d3a259b84.js" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap" rel="stylesheet">
+     <link href="newTest.css" rel="stylesheet">
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/pts/0.9.4/pts.min.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script src="jquery-1.10.2.min.js"></script>
+     <script src="meetteam.js"></script>
+</head>
+
+
+
+<body>
+    <section id="index">
+    <div id="canv">
+        <canvas id="canvasTest"></canvas>
+    </div>
+    <div id="showOver" class="jumbotron text-center">
+        <h1>we are rampant.digital</h1>
+        <a id="landingBtn" href="#services"><button class="btn btn-info">come inside</button></a>
+    </div> 
+    </section>
+    <nav id="navBarStyles" class="navbar navbar-expand-sm sticky-top">  
+        <a href="#index" class="navbar-brand"><img src="rdwtext250x250.png" height="50px" width="50px">rampant.digital</a>
+        <button class="navbar-toggler navbar-dark" data-toggle="collapse" data-target="#navbarList">
+            <span class="navbar-toggler-icon navbar-dark"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarList">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item text-center"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item text-center"><a href="#services" class="nav-link">Services</a></li>
+                <li class="nav-item text-center"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="services">
+        
+        <div class="container-fluid text-center p-4">
+            <h1> what we do </h1>
+        </div>
+        <div class="container-fluid">
+            <div class="row-cols-12">
+                <div class="serviceList col-6 col-md-6 col-sm-6 text-sm-center text-center justify-content-center pull-left float-sm-left">
+                    <h2>web development</h2>
+                    <ul class="list-group list-unstyled">
+                        <li class="list-item"> offering 1</li>
+                        <li class="list-item"> offering 2</li>
+                        <li class="list-item"> offering 3</li>
+                        <li class="list-item"> offering 4</li>
+                    </ul>
+                </div>
+                <div class="serviceList col-6 col-md-6 col-sm-6 text-sm-center text-center justify-content-center pull-right float-sm-right">
+                    <h2> social marketing </h2>
+                    <ul class="list-group list-unstyled">
+                       <li class="list-item"> offering 1</li>
+                       <li class="list-item"> offering 2</li>
+                       <li class="list-item"> offering 3</li>
+                       <li class="list-item"> offering 4</li>
+                    </ul>
+                </div>
+               </div>
+        </div>
+        <div class="container-fluid text-center m-2">
+            <div class="row text-center mb-3">
+                <div class="col-sm-12">
+                    <h2>we do this by</h2>
+                </div>
+               </div>
+               <div class="row tex-center justify-content-center m-2">
+                <div class="col-sm-12 mt-3">
+                   <ul class="list-group-horizontal list-inline list-unstyled justify-content-start">
+                       <li class="list-inline-item mr-5"><i id="iconList" class="fas fa-laptop-code"></i><br>responsive designing</li>
+                       <li class="list-inline-item ml-5 mr-5"><i id="iconList" class="fas fa-space-shuttle"></i><br>creating for faster load time</li>
+                       <li class="list-inline-item ml-5 mr-5"><i id="iconList" class="fas fa-chart-line"></i><br>creating efficient management solutions</li>
+                       <li class="list-inline-item ml-5"><i id="iconList" class="fas fa-people-arrows"></i><br>keeping you and the user in mind</li>
+                   </ul>
+                </div>
+               </div>
+        </div>
+        <div class="container-fluid text-center p-4">
+            <div class="row-cols-12">
+                <a href="#contact"><button class="btn btn-info"> find out more </button></a>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+       <!-- <div class="container-fluid text-center">
+            <div class="row-cols-12">
+                <h1>our story</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In veniam veritatis, architecto, et doloribus provident nesciunt necessitatibus nihil, nulla voluptas similique repellendus quis vitae? Sapiente doloribus atque consectetur ipsum beatae nesciunt sequi hic recusandae, quidem aliquam voluptatibus, enim iure temporibus itaque? Accusamus aut iusto ea obcaecati debitis sit temporibus ducimus hic magni aperiam commodi eligendi reiciendis, dolor consectetur reprehenderit non impedit minus quasi praesentium! At voluptas sunt quia ut modi iusto, sint ipsum cum quisquam quae doloremque placeat odit non, quo facere deleniti ipsa impedit temporibus recusandae alias neque tempore dolor laboriosam sequi? Sapiente quidem cupiditate alias, asperiores doloribus obcaecati enim pariatur velit optio reiciendis non! Dolore suscipit dolorem nostrum perferendis voluptatum quae libero amet porro doloribus voluptatibus facere enim, aliquam quas voluptate explicabo consequatur. Labore incidunt ea reprehenderit et, soluta dolorem! Quibusdam atque laborum alias assumenda ipsa eligendi cumque? Eveniet distinctio, quia asperiores doloremque saepe vero ipsum ipsam est!</p>
+            </div>
+        </div>-->
+        <div class="container-fluid text-center">
+            <div class="row-cols-12">
+                <h1>who does this for you</h1>
+           
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="rel">
+                <div class="insideRel">
+                    <div id="pre">
+                        <button class="btn btn-primary">Previous</button>
+                    </div>
+                    <div id="main">
+                        <div id="side1">
+                            <div class="member-container">
+                                <img class="member-image" src="jay.jpg" height="40%" width="auto"/>
+                                <h1 class="member-name">Jay Dogga</h1>
+                                <p class="member-title">Assistant Gigolo</p>
+                                <p class="about-member">Alex has also been offering his services on the streets since he was a wee 10 year old.
+                                    Demand for Alexs services exploded before 2020 but dues to the recent Corona outbreak, 
+                                </p>
+                                <a href="mailto:iamalexchangi@gmail.com" class="btn">Contact</a>
+                                <ul class="social-media">
+                                    <li class="member-li"><a href="#"><i class="fa fa-facebook-square meeting-card-logos"></i></a></li>
+                                    <li class="member-li"><a href="#"><i class="fa fa-linkedin-square meeting-card-logos"></i></a></li>
+                                    <li ><a href="#"><i class="fa fa-instagram meeting-card-logos"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="side2">
+                            <div class="member-container">
+                                <img class="member-image" src="alex.jpg" height="40%" width="auto"/>
+                                <h1 class="member-name">Lil Chang</h1>
+                                <p class="member-title">Assistant Gigolo</p>
+                                <p class="about-member">Alex has also been offering his services on the streets since he was a wee 10 year old.
+                                    Demand for Alexs services exploded before 2020 but dues to the recent Corona outbreak, 
+                                </p>
+                                <a href="mailto:iamalexchangi@gmail.com" class="btn">Contact</a>
+                                <ul class="social-media">
+                                    <li class="member-li"><a href="#"><i class="fa fa-facebook-square meeting-card-logos"></i></a></li>
+                                    <li class="member-li"><a href="#"><i class="fa fa-linkedin-square meeting-card-logos"></i></a></li>
+                                    <li class="member-li"><a href="#"><i class="fa fa-instagram meeting-card-logos"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="side3">
+                            <div class="member-container">
+                                <img class="member-image" src="jaysballie.jpg" height="40%" width="auto"/>
+                                <h1 class="member-name">Ballie Dogga</h1>
+                                <p class="member-title">Assistant Gigolo</p>
+                                <p class="about-member">Alex has also been offering his services on the streets since he was a wee 10 year old.
+                                    Demand for Alexs services exploded before 2020 but dues to the recent Corona outbreak, 
+                                </p>
+                                <a href="mailto:iamalexchangi@gmail.com" class="btn">Contact</a>
+                                <ul class="social-media">
+                                    <li class="member-li"><a href="#"><i class="fa fa-facebook-square meeting-card-logos"></i></a></li>
+                                    <li class="member-li"><a href="#"><i class="fa fa-linkedin-square meeting-card-logos"></i></a></li>
+                                    <li class="member-li"><a href="#"><i class="fa fa-instagram meeting-card-logos"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="nex">
+                        <button class="btn btn-primary">next</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+             
+    </section>
+    <section id="contact">
+        <div class="container-fluid text-center">
+            <div class="row-cols-12">
+                <h1>contact us</h1>
+            </div>
+        </div>
+        <div class="container-fluid text-center">
+            <ul class="list-group-horizontal list-inline list-unstyled justify-content-start"> 
+                <li class="list-inline-item"> <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#simpleContactModal">leave your details</button></li>
+                <li class="list-inline-item">or</li>
+                <li class="list-inline-item"><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#contactModal">submit our form</button></li>
+                <li class="list-inline-item">or</li>
+                <li class="list-inline-item"><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#detailsModal">get our details</button></li>
+            </ul>
+        </div>
+        <div id="simpleContactModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title"> leave your details </h2>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="form-group" action="https://formspree.io/xyynzlpd" method="POST">
+                            <div class="col-xs-12 col-md-12">
+                                <label for="simpleName">name:</label>
+                                <input id="simpleName" class="form-control" name="simpleName" placeholder="your name">
+                            </div>
+                            <div class="col-xs-12 col-md-12">
+                                <label for="simplePhone">phone:</label>
+                                <input id="simplePhone" class="form-control" name="simplePhone" placeholder="your digits">
+                            </div>
+                            <div class="col-xs-12 col-md-12">
+                                <label for="simpleEmail">email:</label>
+                                <input id="simpleEmail" class="form-control" name="simpleEmail" placeholder="your email address">
+                            </div>
+                            <div class="col-xs-12 col-md-12">
+                                <button class="btn btn-info" type="submit">send</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+
+
+ <!-- Swiper JS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+ 
+    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+
+<!-- Initialize Swiper -->
+    <script src="app2.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>   
+    <script src="ptsTest.js"></script>     
+</body>
+</html>
