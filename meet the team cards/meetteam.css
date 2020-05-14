@@ -1,12 +1,13 @@
-/* body{
-    margin: 0px;
-    padding: 0px;
-    background-color:#6bd6c6 !important;
-} */
+
+.container {
+    background-color: royalblue !important;
+}
+
 #main{
     position: absolute;
     top:35%;
     left: 45%;
+    background-color: royalblue !important;
 }
 
 .member-image {
