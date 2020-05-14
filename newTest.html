@@ -30,7 +30,8 @@
      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/pts/0.9.4/pts.min.js"></script>
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+     <script src="jquery-1.10.2.min.js"></script>
+     <script src="meetteam.js"></script>
 </head>
 
 
@@ -45,7 +46,21 @@
         <a id="landingBtn" href="#services"><button class="btn btn-info">come inside</button></a>
     </div> 
     </section>
+    <nav id="navBarStyles" class="navbar navbar-expand-sm sticky-top">  
+        <a href="#index" class="navbar-brand"><img src="rdwtext250x250.png" height="50px" width="50px">rampant.digital</a>
+        <button class="navbar-toggler navbar-dark" data-toggle="collapse" data-target="#navbarList">
+            <span class="navbar-toggler-icon navbar-dark"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarList">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item text-center"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item text-center"><a href="#services" class="nav-link">Services</a></li>
+                <li class="nav-item text-center"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
     <section id="services">
+        
         <div class="container-fluid text-center p-4">
             <h1> what we do </h1>
         </div>
@@ -104,43 +119,71 @@
         <div class="container-fluid text-center">
             <div class="row-cols-12">
                 <h1>who does this for you</h1>
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img class="team-img" src="alex.jpg">
-                        <h1>Alex Chang</h1>
-                            <p class="job-title">Assistant Gigolo</p>
-                            <p class="about">Alex has also been offering his services on the streets since he was a wee 10 year old.
-                                Demand for Alexs services exploded before 2020 but dues to the recent Corona outbreak, 
-                            </p>
-                            <a href="mailto:iamalexchangi@gmail.com" class="btn btn-primary">Contact</a>
+           
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="rel">
+                <div class="insideRel">
+                    <div id="pre">
+                        <button class="btn btn-primary">Previous</button>
+                    </div>
+                    <div id="main">
+                        <div id="side1">
+                            <div class="member-container">
+                                <img class="member-image" src="jay.jpg" height="40%" width="auto"/>
+                                <h1 class="member-name">Jay Dogga</h1>
+                                <p class="member-title">Assistant Gigolo</p>
+                                <p class="about-member">Alex has also been offering his services on the streets since he was a wee 10 year old.
+                                    Demand for Alexs services exploded before 2020 but dues to the recent Corona outbreak, 
+                                </p>
+                                <a href="mailto:iamalexchangi@gmail.com" class="btn">Contact</a>
+                                <ul class="social-media">
+                                    <li class="member-li"><a href="#"><i class="fa fa-facebook-square meeting-card-logos"></i></a></li>
+                                    <li class="member-li"><a href="#"><i class="fa fa-linkedin-square meeting-card-logos"></i></a></li>
+                                    <li ><a href="#"><i class="fa fa-instagram meeting-card-logos"></i></a></li>
+                                </ul>
+                            </div>
                         </div>
-                    <div class="swiper-slide">
-                        <img class="team-img" src="jay.jpg">
-                        <h1>Jason Young</h1>
-                            <p class="job-title">Lead Gigolo</p>
-                            <p class="about">Jason has been offering his services on the streets since he was a wee 10 year old.
-                                            Demand for jasons services exploded before 2020 but dues to the recent Corona outbreak.
-                            </p>
-                            <a href="mailto:jasony4@gmail.com" class="btn btn-primary">Contact</a>
+                        <div id="side2">
+                            <div class="member-container">
+                                <img class="member-image" src="alex.jpg" height="40%" width="auto"/>
+                                <h1 class="member-name">Lil Chang</h1>
+                                <p class="member-title">Assistant Gigolo</p>
+                                <p class="about-member">Alex has also been offering his services on the streets since he was a wee 10 year old.
+                                    Demand for Alexs services exploded before 2020 but dues to the recent Corona outbreak, 
+                                </p>
+                                <a href="mailto:iamalexchangi@gmail.com" class="btn">Contact</a>
+                                <ul class="social-media">
+                                    <li class="member-li"><a href="#"><i class="fa fa-facebook-square meeting-card-logos"></i></a></li>
+                                    <li class="member-li"><a href="#"><i class="fa fa-linkedin-square meeting-card-logos"></i></a></li>
+                                    <li class="member-li"><a href="#"><i class="fa fa-instagram meeting-card-logos"></i></a></li>
+                                </ul>
+                            </div>
                         </div>
-                    <div class="swiper-slide">
-                        <img class="team-img" src="jaysballie.jpg">
-                        <h1>Jay's ballie</h1>
-                            <p class="job-title">Lead Gigolo</p>
-                            <p class="about">Taught Jason everything he knows, had an illustrius career and now spends his time 
-                                            going to for quiet walks, drinking tea.
-                            </p>
-                            <a href="mailto:gotodavid5@gmail.com" class="btn btn-primary">Contact</a>
+                        <div id="side3">
+                            <div class="member-container">
+                                <img class="member-image" src="jaysballie.jpg" height="40%" width="auto"/>
+                                <h1 class="member-name">Ballie Dogga</h1>
+                                <p class="member-title">Assistant Gigolo</p>
+                                <p class="about-member">Alex has also been offering his services on the streets since he was a wee 10 year old.
+                                    Demand for Alexs services exploded before 2020 but dues to the recent Corona outbreak, 
+                                </p>
+                                <a href="mailto:iamalexchangi@gmail.com" class="btn">Contact</a>
+                                <ul class="social-media">
+                                    <li class="member-li"><a href="#"><i class="fa fa-facebook-square meeting-card-logos"></i></a></li>
+                                    <li class="member-li"><a href="#"><i class="fa fa-linkedin-square meeting-card-logos"></i></a></li>
+                                    <li class="member-li"><a href="#"><i class="fa fa-instagram meeting-card-logos"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="nex">
+                        <button class="btn btn-primary">next</button>
                     </div>
                 </div>
-               
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-        
-              </div>
             </div>
-            </div>
+        </div>
              
     </section>
     <section id="contact">
@@ -190,8 +233,7 @@
                 </div>
             </div>
         </div>
-
-    </section>
+        </section>
 
 
 

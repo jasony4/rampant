@@ -5,6 +5,9 @@
 body{
     background-color:#1F2833 !important;
 }
+.teamsCont{
+    position:relative;
+}
 #main{
     position: absolute;
     top:35%;
