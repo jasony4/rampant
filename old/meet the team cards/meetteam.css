@@ -1,15 +1,16 @@
-body{
-    margin: 0px;
-    padding: 0px;
-    background-color:#6bd6c6 !important;
+
+.container {
+    background-color: royalblue !important;
 }
+
 #main{
     position: absolute;
     top:35%;
     left: 45%;
+    background-color: royalblue !important;
 }
 
-img {
+.member-image {
     object-fit: cover;
     overflow: hidden;
 }
@@ -23,7 +24,7 @@ img {
     background-color: #1F2833;
     height:100%;
     border-radius: 20%;
-    border: 2px solid white;
+    border: 2px solid #c5c6c7;
     color:#C5C6C7;
     overflow: hidden;
 }
@@ -36,7 +37,7 @@ img {
     font-size: x-small;
 }
 
-li {
+.member-li {
     list-style: none;
 }
 
@@ -67,11 +68,9 @@ li {
 #pre{
     height: 30px;
     width: 100px;
-    font-family: arial;
+    font-family: inherit;
     font-size: 15px;
-    color:gray;
     text-align: center;
-    line-height: 30px;
     position: absolute;
     top:50%;
     left: 20%;
@@ -82,12 +81,9 @@ li {
 #nex{
     height: 30px;
     width: 100px;
-    border: 2px solid gray;
-    font-family: arial;
+    font-family: inherit;
     font-size: 15px;
-    color:gray;
     text-align: center;
-    line-height: 30px;
     position: absolute;
     top:50%;
     right: 20%;
@@ -122,9 +118,11 @@ li {
     display: flex;
     justify-content: space-evenly;
     padding:16px 0;
+    color:#c5c6c7;
 }
 
 .social-media i{
     font-size: 24px;
-    transition:all 0.5s
+    transition:all 0.5s;
+    color:#c5c6c7
 }
