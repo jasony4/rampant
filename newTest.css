@@ -185,6 +185,22 @@ div#canv{
     overflow: hidden;
 }
 
+#jay-contact-bar {
+    
+    transition: all 0.5s;
+}
+
+#alex-contact-bar {
+    
+    transition: all 0.5s;
+}
+
+#jaysballie-contact-bar {
+    
+    transition: all 0.5s;
+}
+
+
 .member-title {
     font-size: x-small;
 }
