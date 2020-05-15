@@ -92,6 +92,7 @@ div#canv{
     opacity:0.8;
 }  
 
+
   .swiper-container {
     width: 60vw;
     height:15%;
@@ -138,9 +139,36 @@ div#canv{
     background-color: royalblue !important;
 }
 
+.mem-img-container {
+    height:180px;
+}
+
+.contact-icons{
+    width:40px;
+    display:flex;
+    position:fixed;
+    top:50px;
+    background-color: #1F2833;
+    z-index: 99;
+    height:115px;
+    border:1px solid #c5c6c7;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    font-size: 1px;
+}
+
+.contact-icons i:hover {
+    color:#c5c6c76e
+}
+
 .member-image {
     object-fit: cover;
     overflow: hidden;
+    border-radius: 10%;
+    height: 100%;
+    width:100%;
+    object-position: top;
+    position:20%
 }
 
 .member-name {
@@ -158,11 +186,12 @@ div#canv{
 }
 
 .member-title {
-    font-size: small;
+    font-size: x-small;
 }
 
 .about-member {
     font-size: x-small;
+    margin:0 10px;
 }
 
 .member-li {
@@ -170,51 +199,38 @@ div#canv{
 }
 
 #side1{
-    height: 40vh;
-    width: 20vh;
+    height: 300px;
+    width: 250px;
     position: absolute;
     transform: translateX(0px) scale(1.5);
     z-index: 99;
     transition: all .5s;
 }
 #side2{
-    height: 40vh;
-    width: 20vh;
+    height: 300px;
+    width: 250px;
     position: absolute;
     transform: translateX(-200px);
     z-index: 9;
     transition: all .5s;
 }
 #side3{
-    height: 40vh;
-    width: 20vh;
+    height: 300px;
+    width: 250px;
     position: absolute;
     transform: translateX(200px);
     z-index: 9;
     transition: all .5s;
 }
 #pre{
-    height: 30px;
-    width: 100px;
-    font-family: inherit;
-    font-size: 15px;
-    text-align: center;
-    position: absolute;
-    top:50%;
-    left: 20%;
+    font-size: 5vh;
 }
 #pre:hover{
     cursor: pointer;
 }
+
 #nex{
-    height: 30px;
-    width: 100px;
-    font-family: inherit;
-    font-size: 15px;
-    text-align: center;
-    position: absolute;
-    top:50%;
-    right: 20%;
+    font-size: 5vh;
 }
 #nex:hover{
     cursor: pointer;
@@ -243,18 +259,31 @@ div#canv{
 .social-media {
     width:100%;
     list-style: none;
-    display: flex;
+    /* display: flex; */
     justify-content: space-evenly;
     padding:16px 0;
     color:#c5c6c7;
 }
 
 .social-media i{
-    font-size: 24px;
+    font-size: 20px;
+    padding:1px;
     transition:all 0.5s;
     color:#c5c6c7
 }
+
+.rel {
+    height:40vh;
+}
 .rel,.insideRel{
     position:relative;
-    margin-top:10vh;
+    margin-top:16vh;
+}
+
+.mem-cards-container {
+    background-color: inherit;
+}
+
+.arrow-button-row {
+    margin-top:8.5%
 }
