@@ -331,10 +331,24 @@ div#canv{
     }
 
     .arrow-button-row {
+        margin-top:15%;
+        height:100%;
+        padding-right: 3px;
+        padding-left: 3px;
+    }
+    
+}
+
+@media only screen and (min-width: 769px) and (max-width:1024px){
+    html{
+        font-size: 0.8em;
+    }
+
+    .arrow-button-row {
         margin-top:8.5%;
         height:100%;
-        padding-right: 0;
-        padding-left: 0;
+        padding-right: 7vw;
+        padding-left: 7vw;
     }
     
 }
