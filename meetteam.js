@@ -11,9 +11,6 @@ $(document).ready(function(){
              $("#side1").css("transform","translateX(0px) scale(1.5)");
              $("#side2").css("transform","translateX(-200px) scale(1)");
              $("#side3").css("transform","translateX(200px)");
-             $("#jay-contact-bar").css("display:visible");
-             $("#alex-contact-bar").css("display:none");
-             $("#jaysballie-contact-bar").css("display:none");
              flag=1;
          }
          else if(flag==1)
@@ -24,9 +21,6 @@ $(document).ready(function(){
              $("#side3").css("transform","translateX(0px) scale(1.5)");
              $("#side1").css("transform","translateX(-200px) scale(1)");
              $("#side2").css("transform","translateX(200px)");
-             $("#jay-contact-bar").css("display:none");
-             $("#alex-contact-bar").css("display:none");
-             $("#jaysballie-contact-bar").css("display:visible");
              flag=2;
          }
          else if(flag==2)
@@ -37,9 +31,6 @@ $(document).ready(function(){
              $("#side2").css("transform","translateX(0px) scale(1.5)");
              $("#side3").css("transform","translateX(-200px) scale(1)");
              $("#side1").css("transform","translateX(200px)");
-             $("#jay-contact-bar").css("display:none");
-             $("#alex-contact-bar").css("display:display:visible");
-             $("#jaysballie-contact-bar").css("none");
              flag=0;
          }
      });
@@ -52,9 +43,6 @@ $(document).ready(function(){
              $("#side3").css("transform","translateX(0px) scale(1.5)");
              $("#side1").css("transform","translateX(-200px) scale(1)");
              $("#side2").css("transform","translateX(200px)");
-             $("#jay-contact-bar").css("display:none");
-             $("#alex-contact-bar").css("display:none");
-             $("#jaysballie-contact-bar").css("display:visible");
              flag=2;
          }
          else if(flag==1)
@@ -65,9 +53,6 @@ $(document).ready(function(){
              $("#side2").css("transform","translateX(0px) scale(1.5)");
              $("#side3").css("transform","translateX(-200px) scale(1)");
              $("#side1").css("transform","translateX(200px)");
-             $("#jay-contact-bar").css("display:none");
-             $("#alex-contact-bar").css("display:display:visible");
-             $("#jaysballie-contact-bar").css("none");
              flag=0;
          }
          else if(flag==2)
@@ -78,9 +63,6 @@ $(document).ready(function(){
              $("#side1").css("transform","translateX(0px) scale(1.5)");
              $("#side2").css("transform","translateX(-200px) scale(1)");
              $("#side3").css("transform","translateX(200px)");
-             $("#jay-contact-bar").css("display:visible");
-             $("#alex-contact-bar").css("display:none");
-             $("#jaysballie-contact-bar").css("display:none");
              flag=1;
              
          }

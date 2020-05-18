@@ -54,18 +54,7 @@ nav#navBarStyles{
 .nav-link :hover, .nav-item :hover, .navbar-brand :hover{
     opacity:0.5 !important;
 }
-@media only screen and (min-width: 320px) and (max-width:425px){
-    html{
-        font-size: 0.4em;
-    }
 
-}
-@media only screen and (min-width: 426px) and (max-width:768px){
-    html{
-        font-size: 0.8em;
-    }
-
-}
 .serviceList{
     background-color:#45A29E;
     color:#1F2833;
@@ -95,7 +84,7 @@ div#canv{
 
   .swiper-container {
     width: 60vw;
-    height:15%;
+    height:50vh;
     padding-top: 0px;/*50px*/
     padding-bottom: 0px;/*50px*/
     margin-top: 100px;
@@ -207,7 +196,7 @@ div#canv{
 
 .about-member {
     font-size: x-small;
-    margin:0 10px;
+    margin:0 15px;
 }
 
 .member-li {
@@ -301,5 +290,51 @@ div#canv{
 }
 
 .arrow-button-row {
-    margin-top:8.5%
+    margin-top:8.5%;
+    height:100%;
+    padding-right: 18vw;
+    padding-left: 18vw;
+}
+
+#swiping-members {
+    display:none;
+}
+
+/* #rotating-members {
+    display:hidden !important;
+} */
+
+@media only screen and (min-width: 320px) and (max-width:425px){
+    html{
+        font-size: 0.4em;
+    }
+
+    #swiping-members {
+        display:block;
+    }
+
+    #rotating-members {
+        display:none !important;
+    }
+
+    .arrow-button-row {
+        margin-top:8.5%;
+        height:100%;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+}
+@media only screen and (min-width: 426px) and (max-width:768px){
+    html{
+        font-size: 0.8em;
+    }
+
+    .arrow-button-row {
+        margin-top:8.5%;
+        height:100%;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    
 }
