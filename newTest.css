@@ -258,3 +258,6 @@ div#canv{
     position:relative;
     margin-top:10vh;
 }
+#mailIcon{
+    font-size:2em;
+}
