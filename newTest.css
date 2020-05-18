@@ -175,18 +175,21 @@ div#canv{
 }
 
 #jay-contact-bar {
-    
-    transition: all 0.5s;
+    /* display:none; */
+    opacity:1;
+    transition: all 3.5s;
 }
 
 #alex-contact-bar {
-    
-    transition: all 0.5s;
+    /* display:none; */
+    transition: all 3.5s;
+    opacity:0;
 }
 
 #jaysballie-contact-bar {
-    
-    transition: all 0.5s;
+    /* display:none; */
+    transition: all 3.5s;
+    opacity:0;
 }
 
 
