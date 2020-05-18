@@ -260,12 +260,23 @@
                         <input type="text" id="email" name="email" class="form-control" placeholder="your email address">                   
                     </div>
                     <div class="col-xs-12">
+                        <label for="form_need">your project:</label>
+                        <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                            <option value=""></option>
+                            <option value="website">website</option>
+                            <option value="web app">web app</option>
+                            <option value="other">other</option>
+                        </select>
+                    </div>
+                    <div class="col-xs-12">
                         <label for="message">your message:</label>
                                         
                     </div>
                     <div class="col-xs-12">
-                        <textarea id="message" placeholder="give us the details"></textarea>  
+                        <textarea id="message" class="form-control" placeholder="give us the details"></textarea>  
                     </div>
+                    
+                    
                 </form>
                 </div>
                 <div class="modal-footer">
