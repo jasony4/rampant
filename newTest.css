@@ -302,7 +302,10 @@ div#canv{
 #swiping-members {
     display:none;
 }
-
+#jumboProj{
+    background-color: #45A29E !important;
+    color: #1F2833 !important;
+}
 /* #rotating-members {
     display:hidden !important;
 } */
