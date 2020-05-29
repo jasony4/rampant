@@ -1,3 +1,4 @@
+
 var swiper = new Swiper('.swiper-container', {
   effect: 'coverflow',
   grabCursor: true,
@@ -43,5 +44,3 @@ $(document).ready(function(){
       } // End if
   });
   });
-
-  
