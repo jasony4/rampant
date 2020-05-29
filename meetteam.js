@@ -98,7 +98,15 @@ $(document).ready(function(){
         
         
  });
- setInterval(function(){ 
-     
+ var interval;
+ var timer = function(){
+ interval = setInterval(function(){ 
+
     $("#nex").click();
  },3000);
+};
+timer();
+$("#nex").click(function(){
+    clearInterval(interval);
+    timer();
+});
