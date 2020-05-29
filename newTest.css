@@ -74,9 +74,9 @@ div#canv{
     position:absolute;
     background-color:#1F2833;
     margin:0 auto;
-    width:35vw;
+    width:50vw;
     height:20vh;
-    top: calc(50vh - (/* height */50vh / 2)); 
+    top: calc(20vh - (/* height */20vh / 2)); 
     left: calc(50vw - (/* width */50vw / 2)); 
     opacity:0.8;
 }  
