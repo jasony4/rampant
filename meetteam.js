@@ -110,3 +110,7 @@ $("#nex").click(function(){
     clearInterval(interval);
     timer();
 });
+$("#pre").click(function(){
+    clearInterval(interval);
+    timer();
+});
