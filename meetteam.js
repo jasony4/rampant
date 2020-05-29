@@ -99,5 +99,6 @@ $(document).ready(function(){
         
  });
  setInterval(function(){ 
+     
     $("#nex").click();
  },3000);
