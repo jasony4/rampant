@@ -103,7 +103,7 @@ $(document).ready(function(){
  interval = setInterval(function(){ 
 
     $("#nex").click();
- },3000);
+ },5000);
 };
 timer();
 $("#nex").click(function(){
