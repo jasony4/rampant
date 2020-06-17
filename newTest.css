@@ -363,11 +363,33 @@ div#canv{
 }
 
 @media only screen 
-  and (min-device-width: 375px) 
+  and (min-device-width: 320px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
+    #rotating-members {
+        display:none !important;
+    }
+    #swiping-members {
+        display:block;
+    }
+    
+    .contact-icons{
+        width:115px;
+        float:bottom;
+        background-color: #1F2833;
+        z-index: 99;
+        height:40px;
+        border:1px solid #c5c6c7;
+        border-radius: 20%;
+        font-size: 1px;
+    }
 
+    .contact-icons li a{
+        display:block;
+    }
+    .contact-icons li {
+        float:left;
+    }
 
-        
 }
